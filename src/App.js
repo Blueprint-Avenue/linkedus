@@ -7,6 +7,7 @@ import {selectUser, logout, login} from "./features/userSlice";
 import Login from "./components/Auth/Login";
 import {useEffect} from "react";
 import {auth} from "./firebase";
+import Widgets from "./components/Widgets/Widgets";
 
 function App() {
 	const user = useSelector(selectUser);
@@ -43,6 +44,7 @@ function App() {
 					{/* Feed */}
 					<Feed />
 					{/* Widgets */}
+					<Widgets />
 				</div>
 			)}
 		</div>
