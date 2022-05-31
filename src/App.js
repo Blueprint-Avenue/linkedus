@@ -1,4 +1,7 @@
 import Header from "./components/Header/Header";
+import Sidebar from "./components/Sidebar/Sidebar";
+import "./App.css";
+import Feed from "./components/Feed/Feed";
 
 function App() {
 	return (
@@ -7,8 +10,12 @@ function App() {
 			<Header />
 			{/* App Body */}
 			{/* Sidebar */}
-			{/* Feed */}
-			{/* Widgets */}
+			<div className="app__body">
+				<Sidebar />
+				{/* Feed */}
+				<Feed />
+				{/* Widgets */}
+			</div>
 		</div>
 	);
 }
