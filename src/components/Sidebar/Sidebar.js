@@ -20,7 +20,7 @@ function Sidebar() {
 				/>
 				<Avatar className="sidebar__avatar" />
 				<h2>Samiya McIntosh</h2>
-				<h4>samiyamcintosh@gmail.com</h4>
+				<h4>skmcintosh20@gmail.com</h4>
 			</div>
 			<div className="sidebar__stats">
 				<div className="sidebar__stat">

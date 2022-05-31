@@ -2,6 +2,7 @@
     position: sticky;
     top: 0;
     display: flex;
+    background-color: #73777B;
     justify-content: space-evenly;
     border-bottom: 0.1px solid #15133C;
     padding-top: 10px;
